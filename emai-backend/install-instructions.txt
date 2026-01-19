@@ -1,0 +1,5 @@
+gcloud run deploy emai-api \
+  --source . \
+  --region northamerica-northeast1 \
+  --allow-unauthenticated \
+  --set-env-vars AUTH_REQUIRED=false
